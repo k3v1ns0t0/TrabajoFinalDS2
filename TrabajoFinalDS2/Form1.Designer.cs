@@ -32,6 +32,7 @@ namespace TrabajoFinalDS2
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtUser = new System.Windows.Forms.TextBox();
@@ -50,6 +51,7 @@ namespace TrabajoFinalDS2
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(0)))), ((int)(((byte)(51)))));
+            this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
@@ -58,6 +60,17 @@ namespace TrabajoFinalDS2
             this.panel1.Size = new System.Drawing.Size(250, 330);
             this.panel1.TabIndex = 0;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Arial", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(9, 90);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(238, 56);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Papelería";
+            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -65,16 +78,15 @@ namespace TrabajoFinalDS2
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(22, 176);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(200, 24);
+            this.label4.Size = new System.Drawing.Size(0, 24);
             this.label4.TabIndex = 1;
-            this.label4.Text = "Soporte de Tickets";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(42, 119);
+            this.label2.Location = new System.Drawing.Point(44, 158);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(169, 56);
             this.label2.TabIndex = 0;
@@ -228,6 +240,7 @@ namespace TrabajoFinalDS2
         private System.Windows.Forms.Timer horafecha;
         private System.Windows.Forms.PictureBox btnClose;
         private System.Windows.Forms.Label lblErrorMessage;
+        private System.Windows.Forms.Label label3;
     }
 }
 

@@ -84,7 +84,7 @@ namespace TrabajoFinalDS2
                         return;
                     }
 
-                    var obj = new Form();
+                    var obj = new Inventario();
                     obj.Show();
 
                     this.Hide();
@@ -109,6 +109,6 @@ namespace TrabajoFinalDS2
             lblErrorMessage.Visible = true;
         }
 
-            
+         
     }
 }
